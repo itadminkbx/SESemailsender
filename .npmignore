@@ -1,0 +1,14 @@
+.env
+.*.swp
+._*
+.DS_Store
+.git
+.gitignore
+.hg
+.npmignore
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+npm-debug.log
