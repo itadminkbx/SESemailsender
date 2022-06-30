@@ -32,8 +32,8 @@ sesemailsender.sendEmail(
   "emailtemplates", //BucketName
   "template.html", //BodyTemplate
   {"name1":"John", "name2": "Jane", "name3": "Jacob"}, //BodyData
-  "devblujfiles", //AttachmentBucketName
-  ["verified.png"] //attachmentKeys 
+  "files", //AttachmentBucketName
+  ["file.png"] //attachmentKeys 
 ).then((response)=>{
   console.log(response);
 }).catch((error)=>{
