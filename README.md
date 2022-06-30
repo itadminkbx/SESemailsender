@@ -7,14 +7,14 @@ To install:
 npm install @srinathkbx/sesemailsender
 
 Example template.html file in S3:
-```
+```html
 <p>
   A simple email with dynamic values!
   Hi {{name1}}, {{name2}} and {{name3}}!
 </p>
 ```
 Example snippet to send an email:
-```
+```javascript
 const AWS = require('aws-sdk');
 const sesemailsender = require('@srinathkbx/sesemailsender');
 AWS.config.update({
